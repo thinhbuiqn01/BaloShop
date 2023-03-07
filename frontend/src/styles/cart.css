@@ -1,0 +1,76 @@
+.list-group-item-second .row {
+  align-items: center;
+  justify-content: space-between;
+}
+.list-group-item {
+  margin-bottom: 20px;
+}
+.orderSummary {
+  font-weight: 700;
+  font-size: 22px;
+}
+.cart-box {
+  padding: 20px;
+  margin-top: 53px;
+}
+.cart-box-price {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-box-total,
+.cart-box-transport {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.cart-box-total span {
+  font-weight: 700;
+  color: black;
+}
+.btn-block {
+  margin-top: 30px;
+  border-radius: 0px;
+  color: white !important;
+  background-color: black !important;
+  padding: 10px 24px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-primary {
+  background-image: none !important;
+  border: 1px solid black;
+}
+.btn-block::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  z-index: -2;
+}
+.bx-right-arrow-alt {
+  color: white;
+  font-size: 22px;
+}
+.form-control:hover {
+  border: 2px solid black;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid black;
+}
+.btn-primary,
+.btn-primary:hover {
+  border: 1px solid black;
+}
+.btn-light {
+  background-image: none;
+}
+.btn-light:hover {
+  background-image: none;
+}

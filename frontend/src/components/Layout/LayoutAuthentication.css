@@ -1,0 +1,8 @@
+.layoutAuthentication {
+  display: flex;
+  justify-content: center;
+}
+.layout-error {
+  position: absolute;
+  right: 50px;
+}

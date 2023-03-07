@@ -1,0 +1,93 @@
+.signIn {
+  width: 556px;
+}
+.layout-signin {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 60px 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: #171725;
+}
+.register {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: #808191;
+}
+.register-link {
+  font-weight: 500;
+  font-size: 14px;
+  color: #f67385;
+}
+.register-link:hover {
+  color: #d74155;
+}
+.inputPass,
+.inputUser {
+  padding: 0px 25px;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+  height: 45px;
+}
+.inputPass::placeholder,
+.inputUser::placeholder {
+  color: #b2b3bd;
+}
+.username {
+  position: relative;
+}
+
+.iconEye {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+.remember {
+  display: flex;
+  justify-content: end;
+}
+.loginBtn {
+  background: #f67385;
+  height: 42px;
+  font-weight: 600;
+  font-size: 16px;
+}
+:where(.css-dev-only-do-not-override-3oxuke).ant-input:hover {
+  border-color: #1dc071;
+  border-inline-end-width: 1px;
+}
+:where(.css-dev-only-do-not-override-3oxuke).ant-input-affix-wrapper:not(
+    :where(
+        .css-dev-only-do-not-override-3oxuke
+      ).ant-input-affix-wrapper-disabled
+  ):hover {
+  border-color: #1dc071;
+}
+:where(.css-dev-only-do-not-override-3oxuke).ant-btn-primary:not(
+    :disabled
+  ):hover {
+  color: #fff;
+  background-color: #1dc071;
+}
+:where(.css-dev-only-do-not-override-3oxuke).ant-input-affix-wrapper
+  .anticon.ant-input-password-icon {
+  font-size: 20px;
+}
+:where(.css-dev-only-do-not-override-1qhh31y).ant-btn-primary:not(
+    :disabled
+  ):hover {
+  color: #fff;
+  background-color: #d74155;
+}

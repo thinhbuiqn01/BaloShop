@@ -1,0 +1,4 @@
+export const TYPE_LAYOUT = {
+  CLIENT: "CLIENT",
+  DASHBOARD: "DASHBOARD",
+};

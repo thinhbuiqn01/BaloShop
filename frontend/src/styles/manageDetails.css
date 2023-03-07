@@ -1,0 +1,33 @@
+.review-list {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(127, 127, 127);
+  padding-top: 10px;
+}
+.review-list:last-child {
+  border-bottom: 1px solid white;
+}
+.review-items {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.review-list:first-child {
+  padding-top: 0px;
+}
+:where(.css-dev-only-do-not-override-4jdczl).ant-rate
+  .ant-rate-star:not(:last-child) {
+  margin-inline-end: 2px !important;
+}
+:where(.css-dev-only-do-not-override-1npmrhi).ant-rate {
+  margin-top: -10px;
+}
+.review-comment {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.review-times {
+  font-size: 12px;
+  margin-top: 10px;
+}

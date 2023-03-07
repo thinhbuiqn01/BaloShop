@@ -1,0 +1,26 @@
+.modalDelete-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.modalDelete-btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.modalDelete p {
+  margin-top: 20px;
+}
+.modalDelete-btn button {
+  border: none;
+  padding: 6px 20px;
+  border-radius: 6px;
+  font-weight: 400;
+}
+.modalDelete-btn button:first-child {
+  color: white;
+  background: rgb(181, 181, 181);
+}
+.modalDelete-btn button:nth-child(2) {
+  color: white;
+  background: rgb(245, 3, 3);
+}

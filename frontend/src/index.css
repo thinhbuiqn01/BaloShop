@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+#root {
+  overflow-x: hidden !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+ul {
+  list-style: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.ant-btn,.ant-switch{
+  line-height:unset !important;
+  outline: none !important;
+}
+.ant-menu{
+  border:none !important;
+  min-width: 120px !important;
+}
+.ant-popover-inner{
+  padding:0 !important;
+}
+.bx{
+  cursor: pointer;
+}
+.footer-modal-form{
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+.ant-modal-close-x{
+  display:flex !important;
+  justify-content:center;
+  align-items:center;
+}
